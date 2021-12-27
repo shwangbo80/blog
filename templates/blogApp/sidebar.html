@@ -1,0 +1,23 @@
+{% load static %} {% block sidebar %}
+
+<style></style>
+
+<!-- Sidebar Widgets Column -->
+<div class="col-md-4 float-right sidebar">
+  <div class="card my-5">
+    <h5 class="card-header">About Soo</h5>
+    <div class="card-body">
+      <img alt="Soo's profile picture" src="{% static "images/IMG_0344.PNG" %}"
+      class="profilePic mx-auto d-block mb-3" />
+      <p class="card-text">
+        This awesome blog is made on the top of our Favourite full stack
+        Framework 'Django', follow up the tutorial to learn how we made it..!
+      </p>
+      <a href="https://www.soohwangbo.com" class="btn btn-primary"
+        >Know more!</a
+      >
+    </div>
+  </div>
+</div>
+
+{% endblock sidebar %}
